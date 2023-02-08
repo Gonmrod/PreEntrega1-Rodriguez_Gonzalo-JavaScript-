@@ -79,6 +79,19 @@ let derrotas = 0;
 
 while (victorias < 2 && derrotas < 2){
     jugador = Number(prompt("Elige 1. para piedra 🥌 - 2. para papel 📄 - 3. para tijeras ✂️."));
+    while (jugador !== 1 && jugador !== 2 && jugador !== 3){
+
+        alert("Elección erronea.");
+    
+        jugador = Number(prompt("Elige 1. para piedra 🥌 - 2. para papel 📄 - 3. para tijeras ✂️."));
+    }
+        if (jugador === 1) {
+            alert("Elejiste piedra 🥌");
+        } else if (jugador === 2){
+            alert("Elejiste papel 📄");
+        } else if (jugador === 3){
+            alert("Elejiste tijeras ✂️");
+        }
     computadora = pcAleatoria(1, 3);
         if (computadora === 1) {
             alert("La computadora eligió piedra 🥌");
