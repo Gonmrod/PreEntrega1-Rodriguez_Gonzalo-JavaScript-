@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    background-color: blueviolet;
+    background-color: grey;
+    background-image: url(https://i.postimg.cc/qqDsvbJv/fondo.jpg);
+    background-size: cover;
     color: aliceblue;
     font-size: larger;
     font-family: 'Courier New', Courier, monospace;
@@ -13,7 +15,6 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-image: url(/assets/img/fondo.jpg);
 }
 img{
     display: flex;
